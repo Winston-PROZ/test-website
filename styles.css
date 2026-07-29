@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   background-color: rgb(227, 227, 227);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,9 +33,9 @@ img {
   object-position: center;
 }
 
-img:hover{
+img:hover {
   max-width: 200px;
-  transform: perspective(500px) rotateY(50deg);
+  transform: perspective(500px) rotateY(20deg);
   object-fit: cover;
   object-position: center;
 }
@@ -44,51 +43,28 @@ img:hover{
 p :first-child {
   text-decoration: line-through;
   color: rgb(rgb(194, 194, 13), green, blue);
-=======
-body {
-  background-color: rgb(227, 227, 227);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
-  color: red;
-  font-size: 2.5em;
+.img-button-container {
+  display: flex;
+  align-items: stretch, center;
+  justify-content: center;
+  gap: 10px;
 }
 
-p {
-  color: rgb(0, 21, 255);
-  font-size: 1.5em;
+.img-button-container btn {
+  height: 200px;
+  width: 100%;
+  flex: 1;
+  padding: 0;
 }
 
-a:link {
-  color: blue;
-}
-
-a:visited {
-  color: purple;
-}
-
-a:hover {
-  color: rgb(88, 208, 255);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-img {
-  max-width: 200px;
+.img-button-container btn img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-  object-position: center;
 }
 
-img:hover{
-  max-width: 200px;
-  transform: perspective(500px) rotateY(50deg);
-  object-fit: cover;
-  object-position: center;
-}
-
-p :first-child {
-  text-decoration: line-through;
-  color: rgb(rgb(194, 194, 13), green, blue);
->>>>>>> a0dde68 (first commit)
+h2 {
+  text-align: center;
 }
